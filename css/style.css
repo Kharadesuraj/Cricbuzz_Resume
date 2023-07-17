@@ -1,0 +1,245 @@
+html{
+    background-color: #8c8a8a;
+    height: 100%;
+}
+
+.container{
+    padding: 70px 250px 70px 250px;
+}
+
+.nav,.subNav{
+    display: flex;
+}
+
+.nav{
+    background-color: #009270;
+    align-items: center;
+    size: 20px;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+}
+
+.nav li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+/* .nav li > a{
+    text-decoration: none;
+    color: white;
+} */
+
+.nav li a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav img{
+    /* mix-blend-mode: multiply; */
+    height: 40px;
+    padding: 10px;
+}
+.nav button{
+    margin-left: 30px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 20px;
+}
+
+.nav li:hover{
+    background-color: #036850;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.subNav{
+    background-color: #4A4A4A;
+    color: white;
+    height: 50px;
+    width: 100%;
+    overflow: auto;
+    /* align-items: center; */
+}
+
+.subNav li:hover{
+    background-color: #424040;
+    align-items: center;
+    color: white;
+}
+
+.subNav li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.subNav .matches{
+    background-color: #222;
+}
+
+section .sec0{
+    display: flex;
+}
+
+section{
+    display: flex;
+    background-color: white;
+}
+
+section .mainImage img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px 0px 0px 30px;
+}
+
+section .name{
+    margin: 0%;
+    padding: 90px 0px 0px 50px;
+}
+
+section .name h1{
+    font-size: 36px;
+    margin: 0%;
+}
+
+section .name p{
+    color: #4A4A4A;
+}
+
+article{
+    display: flex;
+}
+
+article .sec1{
+    width: 40%;
+    display: block;
+    padding-left: 10px;
+    background-color: #E3E6E3;
+    /* height: fit-content; */
+}
+
+.Project1,.Project2,.Project3,.Project4 li{
+    list-style: none;
+    padding-top: 5px;
+    /* text-align: justify; */
+}
+
+.proj1{
+    display: flex;
+    /* align-items: center; */
+}
+
+.proj1Inner{
+    display: flex;
+    align-items: center;
+}
+
+
+.icons{
+    font-size: 25px;
+}
+
+.icons i:hover{
+    color: #009270;
+    transition: 0.5s ease-in;
+    transform: rotate(-360deg);
+}   
+
+article .sec2{
+    width: 60%;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    display: block;
+    margin-top: 0%;
+}
+
+article .born,.bp,.height,.role,.number{
+    display: flex;
+    margin-top: 0%;
+}
+
+#yr,#gr,#num,#fd,#gd{
+    font-weight: normal;
+    margin: 0%;
+    padding-top: 20px;
+}
+
+#br,#bp,#ht,#rl,#nb{
+    /* width: 30%; */
+    width: 50%;
+    padding-top: 20px;
+    margin: 0%;
+}
+
+.sec2 p{
+    text-align: justify;
+}
+
+.sec2 .title{
+    background-color: #E3E6E3;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.sec2 li{
+    list-style: none;
+    align-items: center;
+}
+
+.sec2 img{
+    height: 50px;
+    padding-top: 10px;
+    /* align-items: center; */
+}
+
+.sec2 .one,.comp{
+    display: flex;
+}
+
+.sec2 .one li{
+    padding-top: 15px;
+}
+
+.one img:hover{
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+}
+
+.innerComp1 img:hover{
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+}
+.innerComp2 img:hover{
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+}
+.innerComp3 img:hover{
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+}
+
+.comp{
+    display: block;
+}
+
+.comp h4{
+    font-style: none;
+}
+
+.innerComp1,.innerComp2,.innerComp3{
+    display: flex;
+}
+
+.innerComp1 li,.innerComp2 li,.innerComp3 li{
+    padding-top: 15px;
+}
+
+.proj1 img{
+    height: 30px;
+}

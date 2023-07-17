@@ -1,0 +1,39 @@
+
+@media screen and (max-width:900px){
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    section{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .container{
+        align-items: center;
+    }
+
+    article{
+        flex-direction: column;
+    }
+
+    article .sec1{
+        width: 100%;
+    }
+    article .sec2{
+        width: 100%;
+    }
+
+    section .mainImage img{
+        align-items: center;
+    }
+
+    section .mainImage{
+        width: 100%;
+    }
+    
+}
